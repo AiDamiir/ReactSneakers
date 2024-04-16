@@ -1,0 +1,22 @@
+.searchBox {
+	position: relative;
+	padding: 0 15px;
+	gap: 13.75px;
+	border-radius: 10px;
+	border: 1px solid #f3f3f3;
+}
+
+.searchBox input {
+	padding: 15px 0;
+}
+
+.searchBox button {
+	position: absolute;
+	top: 12px;
+	right: 8px;
+}
+
+.searchBox svg {
+	width: 22px;
+	height: 22px;
+}

@@ -1,0 +1,32 @@
+.cartEmpty img {
+    margin-bottom: 21px;
+  }
+  
+  .cartEmpty h3 {
+    margin-bottom: 9px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .cartEmpty p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
+  }
+  
+  .cartEmpty .buttonWrapper {
+    position: relative;
+  }
+  
+  .cartEmpty .buttonWrapper img {
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    transition: transform 0.15s ease-in-out;
+  }
+  
+  .cartEmpty .buttonWrapper:hover img {
+    transform: translateX(-5px);
+  }
+  

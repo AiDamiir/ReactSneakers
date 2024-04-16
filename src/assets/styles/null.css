@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: #000;
+	font-size: 14px;
+	font-family: 'Inter', sans-serif;
+	background: #e7f6ff;
+}
+
+input,
+button,
+textarea {
+	font-family: 'Inter', sans-serif;
+	font-size: inherit;
+	outline: none;
+	color: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+a {
+	color: inherit;
+	line-height: normal;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}

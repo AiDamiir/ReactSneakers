@@ -1,0 +1,59 @@
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0;
+	overflow: hidden;
+	visibility: hidden;
+	transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.overlay.overlayVisible {
+	opacity: 1;
+	visibility: visible;
+}
+
+.overlayInner {
+	width: 100%;
+	height: 100%;
+}
+
+.cart {
+	padding: 30px;
+	width: 385px;
+	height: 100%;
+	background: #fff;
+	box-shadow: -10px 4px 24px 0px rgba(0, 0, 0, 0.1);
+	transform: translateX(100%);
+	transition: transform 0.3s ease-in-out;
+}
+
+.overlayVisible .cart {
+	transform: translateX(0%);
+}
+
+.cart h2 {
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: 700;
+	min-width: 325px;
+}
+
+.cart .items {
+	overflow: auto;
+	flex: 1 1 auto;
+}
+
+@media (max-width: 565px) {
+	.overlayInner {
+		display: none;
+	}
+
+	.cart {
+		width: 100%;
+	}
+}

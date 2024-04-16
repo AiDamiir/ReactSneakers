@@ -1,0 +1,40 @@
+header {
+	padding: 43px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.headerLeft img {
+	margin-right: 16px;
+}
+
+.headerLeft h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.headerLeft p {
+	color: #9d9d9d;
+}
+
+.headerRight li {
+	margin-right: 32px;
+	gap: 10px;
+}
+
+.headerRight li span {
+	color: #5c5c5c;
+}
+
+@media (max-width: 565px) {
+	header {
+		padding: 22px 0;
+	}
+
+	.headerLeft .content {
+		display: none;
+	}
+
+	.headerRight li {
+		margin-right: 16px;
+	}
+}

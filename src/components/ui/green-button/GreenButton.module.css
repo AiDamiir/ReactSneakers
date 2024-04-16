@@ -1,0 +1,19 @@
+.greenButton {
+	padding: 14px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 18px;
+	background: #9dd458;
+	transition: background 0.2s ease-in-out;
+}
+
+.greenButton:hover {
+	background: #a7e25e;
+}
+
+.greenButton:active {
+	background: #93c753;
+}

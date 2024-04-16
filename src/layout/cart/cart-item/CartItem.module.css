@@ -1,0 +1,28 @@
+.cartItem {
+	margin-bottom: 20px;
+	padding: 20px;
+	opacity: 0.9;
+	border-radius: 20px;
+	border: 1px solid #f3f3f3;
+	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out,
+		box-shadow 0.3s ease-in-out;
+}
+
+.cartItem:hover {
+	opacity: 1;
+	transform: translateY(-5px);
+	box-shadow: 0px 17px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+.image {
+	margin-right: 20px;
+	width: 70px;
+	height: 70px;
+	background-size: contain;
+	background-position: 0 7px;
+	background-repeat: no-repeat;
+}
+
+.cartItem p {
+	max-width: 150px;
+}
