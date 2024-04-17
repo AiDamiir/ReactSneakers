@@ -53,3 +53,11 @@
 	opacity: 1;
 	visibility: visible;
 }
+
+@media (max-width: 565px) {
+	.card {
+		padding: 10px 14px 14px 14px;
+		margin: 5px;
+		width: 175px;
+	}
+}

@@ -12,6 +12,13 @@ h1 {
 	font-weight: 700;
 }
 
+.items {
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 @media (max-width: 565px) {
 	.content .head {
 		display: flex;
@@ -24,5 +31,9 @@ h1 {
 
 	h1 {
 		margin-right: 0;
+	}
+
+	.items {
+		justify-content: space-around;
 	}
 }

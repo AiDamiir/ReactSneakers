@@ -1,7 +1,3 @@
-#root {
-	height: 100%;
-}
-
 .lock {
 	overflow: hidden;
 }
@@ -27,8 +23,13 @@
 	padding-inline: 15px;
 }
 
-@media (max-width: 565px) {
+@media (max-width: 1084px) {
 	.wrapper {
 		margin: 0 auto;
+	}
+}
+@media (max-width: 565px) {
+	.page-home .container {
+		padding-inline: 5px;
 	}
 }
